@@ -1,0 +1,17 @@
+server:
+  port: 8000
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://db4free.net:3306/congestion_tax_c
+    username: swesrinivasan
+    password: pokbaw-doJpic-gipzi2
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
